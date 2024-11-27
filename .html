@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    padding: 1rem;
+    text-align: left;
+    padding-left: 2rem;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 3rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  form input {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .gender label {
+    margin-left: -10px;
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .gender input {
+    margin-right: 0.5rem;
+  }
+  
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #357abf;
+  }
+  
+  .terms {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 1rem;
+  }
+  
+  .terms a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  </style>
+<body>
+  <header>
+    <div class="language-selector">English (United States)</div>
+  </header>
+
+  <main>
+    <div class="container">
+      <img src="images (1).png" alt="Logo" class="logo">
+      <h1>Who are you?</h1>
+      <form>
+        <input type="text" placeholder="First name" required>
+        <input type="text" placeholder="Last name" required>
+        <div class="gender">
+          <label><input id="gender" type="radio" name="gender" value="female" required> Female</label>
+          <label><input type="radio" name="gender" value="male" required> Male</label>
+        </div>
+        <button type="submit"><a href="page1(dashborad).html">Register</a></button>
+      </form>
+      <p class="terms">
+        By clicking "Register", you agree to our <a href="#">Terms of Service</a>, 
+        <a href="#">Privacy Policy</a>, and <a href="#">Cookies Policy</a>.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Registration</p>
+  </footer>
+</body>
+</html>
